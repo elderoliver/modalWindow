@@ -3,7 +3,8 @@
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
-//select all the DOM elemnts with the class name show-modal
+
+//select all the DOM elemnts with the class name show-modal.
 const showModal = document.querySelectorAll('.show-modal');
 
 for (let i = 0; i < showModal.length; i++) {
